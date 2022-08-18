@@ -8,7 +8,7 @@
     "registry": "http://127.0.0.1:4783/"
   },
   "packages": [
-    "packages/*"
+    "packages/mini-react"
   ],
   "command": {
     "publish": {
