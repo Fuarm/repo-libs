@@ -14,7 +14,9 @@
     "publish": {
       "ignoreChanges": [
         "*.md",
-        "tests"
+        "tests",
+        "src",
+        "examples"
       ]
     }
   }
