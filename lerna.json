@@ -1,0 +1,23 @@
+{
+  "$schema": "node_modules/lerna/schemas/lerna-schema.json",
+  "useNx": true,
+  "useWorkspaces": true,
+  "version": "independent",
+  "npmClient": "pnpm",
+  "publishConfig": {
+    "registry": "http://127.0.0.1:4783/"
+  },
+  "packages": [
+    "packages/*"
+  ],
+  "command": {
+    "publish": {
+      "ignoreChanges": [
+        "*.md",
+        "tests",
+        "src",
+        "examples"
+      ]
+    }
+  }
+}

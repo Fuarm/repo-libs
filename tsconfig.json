@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "module": "commonjs",
+    "jsx": "react",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "alwaysStrict": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "lib": ["ESNext", "ESNext.AsyncIterable", "DOM"],
+    "baseUrl": "packages"
+  },
+  "include": ["packages/**/*.ts", "**/*.d.ts"],
+  "ignore": ["node_modules", "!/packages/node_modules"],
+}
